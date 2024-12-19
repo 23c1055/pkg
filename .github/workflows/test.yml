@@ -3,7 +3,7 @@ on: push
 jobs:
   test:
     runs-on: ubuntu-22.04
-    container: d23c1055/ubuntu22.04-ros2:latest
+    container: d23c1055@Capybara/ubuntu22.04-ros2:latest
     steps:
       - uses: actions/checkout@v2
       - name: build and test
